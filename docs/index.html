@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connor Duffey | Portfolio</title>
+    <title>Connor Duffey | Computer Science Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,84 +24,75 @@
 
     <main>
 
-        <section id="about">
-            <h2>About Me</h2>
+        <section class="home-intro" aria-labelledby="intro-heading">
+            <h2 id="intro-heading">Computer Science student focused on data and dependable software</h2>
             <p>
-                I'm a Computer Science student at Rochester Institute of Technology
-                interested in data engineering, and machine learning. 
-                I enjoy building scalable software and working with data to solve real-world problems.
+                I study Computer Science at Rochester Institute of Technology(RIT) and enjoy building
+                software that works with data, from full-stack applications to concurrent systems.
+                My experience includes Java, Python, SQL, Spring Boot, and Angular, with a growing
+                interest in data engineering and machine learning.
+            </p>
+            <p class="home-actions">
+                <a class="button-link" href="projects.html">Explore my projects</a>
+                <a class="button-link button-secondary" href="resume.html">View my resume</a>
             </p>
         </section>
 
-        <section id="projects">
-            <h2>Featured Projects</h2>
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Selected projects</h2>
 
-            <div class="card">
-                <h3>C# Peer‑to‑Peer Messaging System</h3>
+            <article class="card">
+                <h3>Concurrent TCP Messaging System</h3>
                 <p>
-                    <li>Built a TCP server using asynchronous sockets to accept and manage multiple client connections concurrently. </li>
-                    <li>Implemented message broadcasting, allowing clients to send messages that are relayed to all connected peers.</li>
-                    <li>Added thread-safe locking mechanisms to ensure proper synchronization.</li>
-                    <li>Designing peer-to-peer extensions enabling clients to establish direct encrypted communication channels</li>
+                    Built an asynchronous C# server for multiple clients, with message broadcasting
+                    and thread-safe synchronization.
                 </p>
-            </div>
+            </article>
 
-            <div class="card">
-                <h3>Ecommerce Application</h3>
+            <article class="card">
+                <h3>Full-Stack Ecommerce Application</h3>
                 <p>
-                    <li>Collaborated in Agile sprints to develop a full-stack website.</li>
-                    <li>Built RESTful backend with Java Spring and dynamic frontend with Angular.</li>
-                    <li>Increased test coverage to 90% using JUnit. </li>
+                    Collaborated in Agile sprints on a Java Spring REST backend and Angular frontend;
+                    raised test coverage to 90% with JUnit.
                 </p>
-            </div>
+            </article>
 
-            <div class="card">
+            <article class="card">
                 <h3>Jott Language Interpreter</h3>
                 <p>
-                    <li>Implemented a custom lexer in Java to tokenize a made-up language’s syntax.</li>
-                    <li>Built a semantic analysis phase to perform type checking, scope resolution, and error reporting.</li> 
-                    <li>Developed a runtime traverser to execute control flow, function calls, and variable evaluation. </li>
-                    <a href="https://github.com/Cduffey3/2025-26-Year4-Language-Interpreter" target="_blank">Language Interpreter</a>
+                    Created a Java interpreter with lexical analysis, type checking, scope resolution,
+                    and runtime execution.
                 </p>
-            </div>
+                <a href="https://github.com/Cduffey3/2025-26-Year4-Language-Interpreter"
+                   target="_blank" rel="noopener noreferrer">View the interpreter on GitHub</a>
+            </article>
+            <p><a href="projects.html">See all projects</a></p>
         </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-
-            <ul>
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">At a glance</h2>
+            <ul class="skill-list">
                 <li>Python</li>
                 <li>Java</li>
                 <li>SQL</li>
-                <li>Machine Learning</li>
-                <li>Data Engineering</li>
-                <li>Distributed Systems</li>
-                <li>Git & GitHub</li>
+                <li>C#</li>
+                <li>Spring Boot</li>
+                <li>Angular</li>
+                <li>PySpark</li>
+                <li>Git &amp; GitHub</li>
             </ul>
+            <p><a href="experience.html">Browse my skills</a></p>
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Let’s connect</h2>
             <p>
-                GitHub:
-                <a href="https://github.com/cduffey3" target="_blank">
-                    github.com/cduffey3
-                </a>
-            </p>
-
-            <p>
-                LinkedIn:
-                <a href="https://www.linkedin.com/in/connor-duffey-96b195270/" target="_blank">
-                    https://www.linkedin.com/in/connor-duffey-96b195270/
-                </a>
-            </p>
-
-            <p>
-                Resume:
-                <a href="assets/CD_Resume.pdf" target="_blank">
-                    Download Resume
-                </a>
+                Interested in learning more? <a href="contact.html">Get in touch</a>,
+                or find me on
+                <a href="https://www.linkedin.com/in/connor-duffey-96b195270/"
+                   target="_blank" rel="noopener noreferrer">LinkedIn</a> and
+                <a href="https://github.com/cduffey3"
+                   target="_blank" rel="noopener noreferrer">GitHub</a>.
             </p>
         </section>
 
